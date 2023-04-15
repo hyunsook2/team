@@ -1,0 +1,20 @@
+개인정보
+id (PK, INT): 사번 (yyMMxx)
+deptn (INT) : 부서명 (정보관리팀 : 0 / 경영관리팀: 1 / 업무팀[공통] : 2 )
+name (VARCHAR): 팀원 이름
+pass (VARCHAR): 사용자 비밀번호 (디폴트값 : 0000)
+grade (INT): 권한 (0:팀장 1:팀원 9:퇴사자)
+in_d (DATE) : 입사일
+out_d (DATE) : 퇴사일
+bday (DATE) : 생년월일
+pnum (INT) : 연락처 
+ad (VARCHAR) : 주소
+
+경영관리
+sal (INT) : 연봉
+dayoff (DATE) : 연차
+
+출퇴근
+work_d (DATE) : 근무일수
+start_t (DATETIME): 출근 시간
+end_t (DATETIME): 퇴근 시간
